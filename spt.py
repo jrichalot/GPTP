@@ -1,4 +1,4 @@
-import sys, simplejson, urllib, urllib2
+import sys, json, urllib, urllib2
 
 def search_public_timeline(q, refresh_url=None, **kwargs):
     '''
