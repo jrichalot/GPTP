@@ -37,4 +37,5 @@ def search_public_timeline(q, refresh_url=None, **kwargs):
 if __name__ == "__main__":
     q = sys.argv[1]
     result = search_public_timeline(q)
-    json.dump(result, sys.stdout, indent="    ")
+#    json.dump(result, sys.stdout, indent="    ")
+print(result)
