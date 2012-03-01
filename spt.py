@@ -32,9 +32,9 @@ def search_public_timeline(q, refresh_url=None, **kwargs):
     
     req = urllib2.Request(u) #, None, headers
     
-    return simplejson.load(urllib2.urlopen(req))
+    return json.load(urllib2.urlopen(req))
 
 if __name__ == "__main__":
     q = sys.argv[1]
     result = search_public_timeline(q)
-    simplejson.dump(result, sys.stdout, indent="    ")
+    json.dump(result, sys.stdout, indent="    ")
