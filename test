@@ -1,2 +1,4 @@
-this is a second test
-But is this going to merge
+<<<<<<< HEAD
+this is the second test in which I merged changes made from work and 
+from home.
+>>>>>>> 33ce992ac7f2f0a1c77b4a62f463d327fff37243
